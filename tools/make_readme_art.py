@@ -35,7 +35,7 @@ def inner(path: Path) -> str:
     because a <style> block is not guaranteed to survive GitHub's sanitiser.
     """
     raw = path.read_text()
-    classes = dict(re.findall(r"\.(st\d+)\s*\{\s*fill:\s*([^;}\s]+)", raw))
+    classes = dict(re.findall(r"\.([\w-]+)\s*\{\s*fill:\s*([^;}\s]+)", raw))
     raw = re.sub(r"<metadata>.*?</metadata>", "", raw, flags=re.S)
     raw = re.sub(r"<defs.*?(?:/>|</defs>)", "", raw, flags=re.S)
     body = raw[raw.index(">", raw.index("<svg")) + 1 : raw.rindex("</svg>")]
@@ -49,12 +49,22 @@ def viewbox(path: Path) -> tuple[float, float]:
     return float(nums[2]), float(nums[3])
 
 
-def place(path: Path, cx: float, cy: float, box: float) -> str:
+def place(path: Path, cx: float, cy: float, box: float, fill: str | None = None) -> str:
     """Scale a logo to fit a box of `box` points and centre it on (cx, cy)."""
+    return fit(path, cx, cy, box, box, fill)
+
+
+def fit(path: Path, cx: float, cy: float, bw: float, bh: float, fill=None) -> str:
+    """Contain a logo in a bw x bh box centred on (cx, cy), aspect kept.
+
+    `fill` paints marks that carry no fill of their own; the PULSE mono mark is
+    black by default and would vanish into the panel.
+    """
     w, h = viewbox(path)
-    s = box / max(w, h)
+    s = min(bw / w, bh / h)
+    paint = f' fill="{fill}"' if fill else ""
     return (
-        f'<g transform="translate({cx - w * s / 2:.1f},{cy - h * s / 2:.1f}) '
+        f'<g{paint} transform="translate({cx - w * s / 2:.1f},{cy - h * s / 2:.1f}) '
         f'scale({s:.6f})">\n    {inner(path)}\n  </g>'
     )
 
@@ -185,7 +195,55 @@ def button(name, label, dest, primary):
     (ASSETS / f"{name}.svg").write_text(out)
 
 
-# --- block 3: the featured project ------------------------------------------
+# --- block 3: the sites ------------------------------------------------------
+# One file per card, for the same reason as the buttons: each one is a link.
+CARD_H, PLATE_W, PLATE_H = 104, 150, 72
+SITES = [
+    {
+        "name": "site-brendondgr",
+        "logo": "logo-bdgr.svg",
+        "paint": None,
+        "domain": "brendondgr.com",
+        "blurb": "My own site: the writing, the project pages and the CV, designed and built from scratch.",
+        "tag": "DESIGN &#183; BUILD &#183; HOSTING",
+    },
+    {
+        "name": "site-pulse",
+        "logo": "logo-pulse.svg",
+        "paint": DISC,
+        "domain": "pulse.sc.fsu.edu",
+        "blurb": "The PULSE Lab at FSU: people, publications and research, with a branding system to match.",
+        "tag": "DESIGN &#183; BUILD",
+    },
+    {
+        "name": "site-scai",
+        "logo": "logo-scai.svg",
+        "paint": None,
+        "domain": "sc-ai.net",
+        "blurb": "The Scientific Computing AI Seminar: the weekly schedule, the speakers and the archive.",
+        "tag": "DESIGN &#183; BUILD",
+    },
+]
+
+
+def site(spec):
+    plate_cx, cy = 22 + PLATE_W / 2, CARD_H / 2
+    left = 22 + PLATE_W + 30
+    body = "\n  ".join(
+        [
+            f'<rect x="22" y="{cy - PLATE_H / 2:g}" width="{PLATE_W}" height="{PLATE_H}" '
+            f'rx="14" fill="#0a0f0e" stroke="{PANEL_EDGE}" />',
+            fit(ASSETS / spec["logo"], plate_cx, cy, PLATE_W - 34, PLATE_H - 24, spec["paint"]),
+            text(left, 47, spec["domain"], 17, TEXT, MONO, "start", "600"),
+            text(left, 71, spec["blurb"], 14, MUTED),
+            text(W - 30, 57, spec["tag"], 10.5, ACCENT, MONO, "end", "500", "2.6"),
+        ]
+    )
+    label = f'{spec["domain"]} - {spec["blurb"]}'
+    (ASSETS / f'{spec["name"]}.svg').write_text(panel(CARD_H, body, label))
+
+
+# --- block 4: the featured project ------------------------------------------
 FEATURED = {
     "logo": "logo-mytheca.svg",
     "kicker": "FEATURED PROJECT",
@@ -233,6 +291,8 @@ FEATURED_ENABLED = False
 header()
 for spec in BUTTONS:
     button(*spec)
+for spec in SITES:
+    site(spec)
 if FEATURED_ENABLED:
     featured()
-print("wrote assets/header.svg and the nav buttons")
+print("wrote assets/header.svg, the nav buttons and the site cards")

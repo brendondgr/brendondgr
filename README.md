@@ -1,4 +1,4 @@
-<!-- The banner and the buttons are generated: edit tools/make_readme_art.py
+<!-- The banner, the buttons and the site cards are generated: edit tools/make_readme_art.py
      and re-run it, not the SVGs. The intro line below is a second copy of the
      site's own description; if it changes, change it there too. -->
 
@@ -36,6 +36,22 @@
 | **[Mytheca](https://brendondgr.com/projects/mytheca)** | A multi-agent D&D/roleplay engine: each character is its own agent, and the engine — not the model — decides what is allowed to happen. | [site](https://brendondgr.com/projects/mytheca) |
 | **[Loud Radish](https://brendondgr.com/projects/loud-radish)** | Live transcription that never leaves your machine, with an assistant that answers from the transcript and cites a timestamp for every claim. | [code](https://github.com/brendondgr/Loud-Radish) |
 | **[Calliope](https://brendondgr.com/projects/calliope)** | A presentation engine for decks an AI drafts and a person finishes: 31 tested layouts, 12 themes, everything editable on the slide, and WCAG AA contrast. | [site](https://brendondgr.com/projects/calliope) |
+
+### Also a web and software developer
+
+Research is most of what I do, but not all of it. I design and build the sites below —
+layout, front end, back end and deployment — and I keep them running.
+
+<p align="center">
+  <a href="https://brendondgr.com"><img src="assets/site-brendondgr.svg" width="880"
+     alt="brendondgr.com - my own site: the writing, the project pages and the CV, designed and built from scratch." /></a>
+  <br /><br />
+  <a href="https://pulse.sc.fsu.edu/"><img src="assets/site-pulse.svg" width="880"
+     alt="pulse.sc.fsu.edu - the PULSE Lab at FSU: people, publications and research, with a branding system to match." /></a>
+  <br /><br />
+  <a href="https://sc-ai.net/"><img src="assets/site-scai.svg" width="880"
+     alt="sc-ai.net - the Scientific Computing AI Seminar: the weekly schedule, the speakers and the archive." /></a>
+</p>
 
 ### Currently
 
