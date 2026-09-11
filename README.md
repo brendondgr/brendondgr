@@ -39,18 +39,16 @@
 
 ### Also a web and software developer
 
-Research is most of what I do, but not all of it. I design and build the sites below —
-layout, front end, back end and deployment — and I keep them running.
+Research is most of what I do, but not all of it. I design and build the sites
+below, front end to deployment, and I keep them running.
 
 <p align="center">
-  <a href="https://brendondgr.com"><img src="assets/site-brendondgr.svg" width="880"
-     alt="brendondgr.com - my own site: the writing, the project pages and the CV, designed and built from scratch." /></a>
-  <br /><br />
-  <a href="https://pulse.sc.fsu.edu/"><img src="assets/site-pulse.svg" width="880"
-     alt="pulse.sc.fsu.edu - the PULSE Lab at FSU: people, publications and research, with a branding system to match." /></a>
-  <br /><br />
-  <a href="https://sc-ai.net/"><img src="assets/site-scai.svg" width="880"
-     alt="sc-ai.net - the Scientific Computing AI Seminar: the weekly schedule, the speakers and the archive." /></a>
+  <a href="https://brendondgr.com"><img src="assets/site-brendondgr.svg" width="280"
+     alt="Personal Website, brendondgr.com - writing, projects and CV." /></a>
+  <a href="https://pulse.sc.fsu.edu/"><img src="assets/site-pulse.svg" width="280"
+     alt="PULSE Lab Site, pulse.sc.fsu.edu - people, publications, research." /></a>
+  <a href="https://sc-ai.net/"><img src="assets/site-scai.svg" width="280"
+     alt="AI/ML Seminar, sc-ai.net - weekly talks and archive." /></a>
 </p>
 
 ### Currently
