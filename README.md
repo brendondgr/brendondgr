@@ -1,11 +1,11 @@
-<!-- The banner and the featured card are generated: edit tools/make_readme_art.py
+<!-- The banner and the buttons are generated: edit tools/make_readme_art.py
      and re-run it, not the SVGs. The intro line below is a second copy of the
      site's own description; if it changes, change it there too. -->
 
 <p align="center">
   <a href="https://brendondgr.com">
     <img src="assets/header.svg" width="880"
-         alt="Brendon DGR, applied AI researcher — a PhD student at Florida State University's PULSE Lab building agentic AI, retrieval and local-first LLM systems in Python, TypeScript, PyTorch, LangGraph, Django, FastAPI, Next.js and Neo4j." />
+         alt="Brendon DGR, applied AI researcher — a PhD student at Florida State University's PULSE Lab working on agentic AI, scientific discovery, cybersecurity, AI for health and applied LLMs, in Python, TypeScript, PyTorch, LangGraph, Django, FastAPI, Next.js and Neo4j." />
   </a>
 </p>
 
@@ -19,17 +19,11 @@
 </p>
 
 <p align="center">
-  <a href="https://brendondgr.com"><b>brendondgr.com</b></a> &nbsp;·&nbsp;
-  <a href="https://brendondgr.com/about">About</a> &nbsp;·&nbsp;
-  <a href="https://brendondgr.com/projects">Projects</a> &nbsp;·&nbsp;
-  <a href="https://brendondgr.com/blog">Blog</a>
-</p>
-
-<p align="center">
-  <a href="https://brendondgr.com/projects/mytheca">
-    <img src="assets/featured.svg" width="880"
-         alt="Featured project, Mytheca: AI roleplay in worlds you write yourself, where every character runs as its own agent and the engine checks each move before it reaches the page. Built with FastAPI, Next.js, Neo4j, Qdrant and hybrid search." />
-  </a>
+  <a href="https://brendondgr.com"><img src="assets/btn-website.svg" height="46" alt="Website - brendondgr.com" /></a>
+  &nbsp;
+  <a href="https://brendondgr.com/about"><img src="assets/btn-about.svg" height="46" alt="About me - brendondgr.com/about" /></a>
+  &nbsp;
+  <a href="https://brendondgr.com/projects"><img src="assets/btn-projects.svg" height="46" alt="Projects - brendondgr.com/projects" /></a>
 </p>
 
 ### Selected work
