@@ -126,8 +126,7 @@ def text(x, y, s, size, fill=TEXT, font=SANS, anchor="start", weight="400", ls=N
 HEADER_ALT = (
     "Brendon DGR, applied AI researcher - a PhD student at Florida State University's "
     "PULSE Lab working on agentic AI, scientific discovery, cybersecurity, AI for health "
-    "and applied LLMs, in Python, TypeScript, PyTorch, LangGraph, Django, FastAPI, "
-    "Next.js and Neo4j."
+    "and applied LLMs."
 )
 FOCUS = [
     ("Agentic AI", ACCENT),
@@ -136,12 +135,11 @@ FOCUS = [
     ("AI for Health", "#ff6b81"),
     ("Applied LLMs", "#ffcb6b"),
 ]
-STACK = [(n, None) for n in ("Python", "TypeScript", "PyTorch", "LangGraph", "Django", "FastAPI", "Next.js", "Neo4j")]
 
 
 def header():
     cx = W / 2
-    h = 430
+    h = 386
     body = "\n  ".join(
         [
             f'<circle cx="{cx:g}" cy="118" r="66" fill="#0a0f0e" stroke="{PANEL_EDGE}" />',
@@ -154,7 +152,6 @@ def header():
                 12, ACCENT, MONO, "middle", "500", "3.4",
             ),
             chips(FOCUS, 330),
-            chips(STACK, 374),
         ]
     )
     (ASSETS / "header.svg").write_text(panel(h, body, HEADER_ALT))

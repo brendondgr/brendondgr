@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://brendondgr.com">
     <img src="assets/header.svg" width="880"
-         alt="Brendon DGR, applied AI researcher — a PhD student at Florida State University's PULSE Lab working on agentic AI, scientific discovery, cybersecurity, AI for health and applied LLMs, in Python, TypeScript, PyTorch, LangGraph, Django, FastAPI, Next.js and Neo4j." />
+         alt="Brendon DGR, applied AI researcher — a PhD student at Florida State University's PULSE Lab working on agentic AI, scientific discovery, cybersecurity, AI for health and applied LLMs." />
   </a>
 </p>
 
