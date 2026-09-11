@@ -30,12 +30,12 @@
 
 | Project | What it is | |
 | --- | --- | --- |
-| **[Mytheca](https://brendondgr.com/projects/mytheca)** | A multi-agent roleplay engine: each character is its own agent, and the engine — not the model — decides what is allowed to happen. | [site](https://brendondgr.com/projects/mytheca) |
-| **[Magnification](https://brendondgr.com/projects/magnification)** | A local-first job search that reads your résumé, ranks scraped postings by genuine fit, and drafts each application. | [code](https://github.com/brendondgr/Magnification) |
-| **[Mango Tree](https://brendondgr.com/projects/mango-tree)** | A self-hosted workspace of eight apps with an assistant that works across all of them, with tool access enforced in code rather than in a prompt. | [code](https://github.com/brendondgr/Mango-Tree) |
 | **[Mycelium](https://brendondgr.com/projects/mycelium)** | Daily research and funding intelligence for a lab: papers, grants, fellowships and deadlines, scored against what the lab actually works on. | [site](https://mycelium.brendondgr.com) |
-| **[Calliope](https://brendondgr.com/projects/calliope)** | A presentation engine for decks an AI drafts and a person finishes: 31 tested layouts, 12 themes, everything editable on the slide, and WCAG AA contrast. | [site](https://brendondgr.com/projects/calliope) |
+| **[Mango Tree](https://brendondgr.com/projects/mango-tree)** | A self-hosted workspace of eight apps with an assistant that works across all of them, with tool access enforced in code rather than in a prompt. | [code](https://github.com/brendondgr/Mango-Tree) |
+| **[Magnification](https://brendondgr.com/projects/magnification)** | A local-first job search that reads your résumé, ranks scraped postings by genuine fit, and drafts each application. | [code](https://github.com/brendondgr/Magnification) |
+| **[Mytheca](https://brendondgr.com/projects/mytheca)** | A multi-agent D&D/roleplay engine: each character is its own agent, and the engine — not the model — decides what is allowed to happen. | [site](https://brendondgr.com/projects/mytheca) |
 | **[Loud Radish](https://brendondgr.com/projects/loud-radish)** | Live transcription that never leaves your machine, with an assistant that answers from the transcript and cites a timestamp for every claim. | [code](https://github.com/brendondgr/Loud-Radish) |
+| **[Calliope](https://brendondgr.com/projects/calliope)** | A presentation engine for decks an AI drafts and a person finishes: 31 tested layouts, 12 themes, everything editable on the slide, and WCAG AA contrast. | [site](https://brendondgr.com/projects/calliope) |
 
 ### Currently
 
