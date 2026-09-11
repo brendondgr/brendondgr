@@ -37,10 +37,10 @@
 | **[Loud Radish](https://brendondgr.com/projects/loud-radish)** | Live transcription that never leaves your machine, with an assistant that answers from the transcript and cites a timestamp for every claim. | [code](https://github.com/brendondgr/Loud-Radish) |
 | **[Calliope](https://brendondgr.com/projects/calliope)** | A presentation engine for decks an AI drafts and a person finishes: 31 tested layouts, 12 themes, everything editable on the slide, and WCAG AA contrast. | [site](https://brendondgr.com/projects/calliope) |
 
-### Also a web and software developer
+### Web & Software Development
 
-Research is most of what I do, but not all of it. I design and build the sites
-below, front end to deployment, and I keep them running.
+Research is most of what I do, but not all of it. I design and build the websites
+that others use & is what my software runs on. Check them out below.
 
 <p align="center">
   <a href="https://brendondgr.com"><img src="assets/site-brendondgr.svg" width="230" alt="Personal Website, brendondgr.com - writing, projects and CV." /></a><a href="https://pulse.sc.fsu.edu/"><img src="assets/site-pulse.svg" width="230" alt="PULSE Lab Site, pulse.sc.fsu.edu - people, publications, research." /></a><a href="https://sc-ai.net/"><img src="assets/site-scai.svg" width="230" alt="AI/ML Seminar, sc-ai.net - weekly talks and archive." /></a>
