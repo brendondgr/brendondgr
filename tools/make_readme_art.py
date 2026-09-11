@@ -199,7 +199,7 @@ def button(name, label, dest, primary):
 # --- block 3: the sites ------------------------------------------------------
 # One tile per file, for the same reason as the buttons: each one is a link, and
 # three separate images is what lets the row sit side by side in the README.
-CARD_W, CARD_H, MARK_R = 320, 218, 46
+CARD_W, CARD_H, MARK_R = 250, 184, 36
 SITES = [
     {
         "name": "site-brendondgr",
@@ -249,15 +249,15 @@ def mark(spec, cx: float, cy: float) -> str:
 
 
 def site(spec):
-    cx, cy = CARD_W / 2, 76
+    cx, cy = CARD_W / 2, 62
     body = "\n  ".join(
         [
             f'<circle cx="{cx:g}" cy="{cy:g}" r="{MARK_R}" fill="#0a0f0e" '
             f'stroke="{PANEL_EDGE}" />',
             mark(spec, cx, cy),
-            text(cx, 148, spec["title"], 19, TEXT, SANS, "middle", "700", "-0.3"),
-            text(cx, 170, spec["domain"], 11.5, ACCENT, MONO, "middle", "500"),
-            text(cx, 194, spec["blurb"], 13, MUTED, SANS, "middle"),
+            text(cx, 124, spec["title"], 18, TEXT, SANS, "middle", "700", "-0.3"),
+            text(cx, 144, spec["domain"], 11, ACCENT, MONO, "middle", "500"),
+            text(cx, 166, spec["blurb"], 12.5, MUTED, SANS, "middle"),
         ]
     )
     label = f'{spec["title"]}, {spec["domain"]} - {spec["blurb"]}'

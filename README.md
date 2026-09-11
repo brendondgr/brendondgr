@@ -43,12 +43,7 @@ Research is most of what I do, but not all of it. I design and build the sites
 below, front end to deployment, and I keep them running.
 
 <p align="center">
-  <a href="https://brendondgr.com"><img src="assets/site-brendondgr.svg" width="280"
-     alt="Personal Website, brendondgr.com - writing, projects and CV." /></a>
-  <a href="https://pulse.sc.fsu.edu/"><img src="assets/site-pulse.svg" width="280"
-     alt="PULSE Lab Site, pulse.sc.fsu.edu - people, publications, research." /></a>
-  <a href="https://sc-ai.net/"><img src="assets/site-scai.svg" width="280"
-     alt="AI/ML Seminar, sc-ai.net - weekly talks and archive." /></a>
+  <a href="https://brendondgr.com"><img src="assets/site-brendondgr.svg" width="230" alt="Personal Website, brendondgr.com - writing, projects and CV." /></a><a href="https://pulse.sc.fsu.edu/"><img src="assets/site-pulse.svg" width="230" alt="PULSE Lab Site, pulse.sc.fsu.edu - people, publications, research." /></a><a href="https://sc-ai.net/"><img src="assets/site-scai.svg" width="230" alt="AI/ML Seminar, sc-ai.net - weekly talks and archive." /></a>
 </p>
 
 ### Currently
