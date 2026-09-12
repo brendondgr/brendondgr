@@ -13,9 +13,9 @@
   I am a PhD student in Florida State University's
   <a href="https://www.sc.fsu.edu/people?uid=bdg20b">Department of Scientific Computing</a>,
   working in the <a href="https://pulse.sc.fsu.edu/">PULSE Lab</a> on agentic AI —
-  systems that plan, use tools, and carry out multi-step work on their own.<br />
-  My interest is in pointing that at the repetitive machinery around expert work,
-  starting with healthcare, so people spend their attention where it matters.
+  systems that plan, use tools, and carry out multi-step work on their own.<br /><br />
+  My interest lies in the automation of repetitive and difficult workflows,
+  currently with the focus being cybersecurity and healthcare.
 </p>
 
 <p align="center">
