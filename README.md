@@ -30,15 +30,15 @@
 
 | Work | What it is | Link |
 | --- | --- | --- |
-| **[Mycelium](https://brendondgr.com/projects/mycelium)** | Daily research and funding intelligence for a lab: papers, grants, fellowships and deadlines, scored against what the lab actually works on. | [site](https://mycelium.brendondgr.com) |
-| **Ariadne** | An agentic framework for federated cybersecurity knowledge graphs, built for quick and accurate knowledge grounding. | *WIP* |
+| **[Mycelium](https://brendondgr.com/projects/mycelium)** | An open-source research assistant any lab can run on its own computers: every night it reads new papers, grants, fellowships and conference calls, and leaves each person and lab a short report with the reason next to every item. | [site](https://mycelium.brendondgr.com) · [code](https://github.com/brendondgr/Mycelium) |
+| **[Ariadne](https://brendondgr.com/projects/ariadne)** | An agentic system that answers a security analyst's question across live cybersecurity knowledge graphs that don't share a query language, querying each in its own language and citing the record behind every claim. | [code](https://github.com/brendondgr/Ariadne) |
 | **Synapse** | Building hierarchical knowledge graphs through multi-agent systems grounded in research. | *WIP* |
 
 ### Selected projects
 
 | Project | What it is | Link |
 | --- | --- | --- |
-| **[Mango Tree](https://brendondgr.com/projects/mango-tree)** | A self-hosted workspace of eight apps with an assistant that works across all of them, with tool access enforced in code rather than in a prompt. | [code](https://github.com/brendondgr/Mango-Tree) |
+| **[GAIFA](https://github.com/brendondgr/GAIFA)** | *Great, Another Interface For Agents*: a local server where every app you build is a mod, and its tools reach a Claude-Code-style agent that learns how you work, a web UI, and any MCP client. | [code](https://github.com/brendondgr/GAIFA) |
 | **[Magnification](https://brendondgr.com/projects/magnification)** | A local-first job search that reads your résumé, ranks scraped postings by genuine fit, and drafts each application. | [code](https://github.com/brendondgr/Magnification) |
 | **[Mytheca](https://brendondgr.com/projects/mytheca)** | A multi-agent D&D/roleplay engine: each character is its own agent, and the engine — not the model — decides what is allowed to happen. | [site](https://brendondgr.com/projects/mytheca) |
 | **[Loud Radish](https://brendondgr.com/projects/loud-radish)** | Live transcription that never leaves your machine, with an assistant that answers from the transcript and cites a timestamp for every claim. | [code](https://github.com/brendondgr/Loud-Radish) |
@@ -56,7 +56,7 @@ that others use & is what my software runs on. Check them out below.
 ### Currently
 
 - **Researching** Agentic AI & Scientific Discovery in the PULSE Lab at FSU.
-- **Building** larger scale projects, like Mycelium, Synapse (WIP), and Ariadne (WIP), to accomplish specific tasks accurately.
+- **Building** larger scale projects, like Mycelium, Ariadne, GAIFA, and Synapse (WIP), to accomplish specific tasks accurately.
 - **Interested in** retrieval that is actually measured, knowledge graphs, and keeping capable systems running on hardware you own.
 
 <p align="center">
